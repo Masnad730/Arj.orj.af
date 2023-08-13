@@ -27,7 +27,7 @@ export default function About() {
               <div className='pb-10'>
                 <h1 className='mb-4 text-xl font-bold'>Welcome to Arj Social Organization</h1>
                 <p className='pb-8 text-2xl text-accents_8 font-light'>
-                  In the heart of Afghanistan&apos;s struggle, ASO envisions a world where every
+                  In the heart of Afghanistan's struggle, ASO envisions a world where every
                   individual can thrive, despite challenging circumstances.
                 </p>
                 <p className='text-base text-accents_6 font-light'>

@@ -35,7 +35,7 @@ export default function VideoLibrary() {
                   video library
                 </span>
                 <div className='text-2xl font-normal mt-2'>
-                  Have a browse through our video library and check out what we&apos;ve been up to.
+                  Have a browse through our video library and check out what we've been up to.
                 </div>
               </div>
             </div>
@@ -80,8 +80,8 @@ export default function VideoLibrary() {
                     onClick={() => handleOpen(2)}
                     className={`border-b-0 transition-colors ${open === 2 ? 'text-black' : ''}`}
                   >
-                    Arj Social Organization&apos;s initiative for holding tree-planting program in
-                    Kabul City
+                    Arj Social Organization's initiative for holding tree-planting program in Kabul
+                    City
                   </AccordionHeader>
                   <AccordionBody className='flex justify-center items-center py-16'>
                     <iframe
