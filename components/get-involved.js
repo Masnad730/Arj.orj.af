@@ -11,7 +11,7 @@ export default function GetInvolved() {
                 your contribution creates ripples of positive change for those in need in
                 Afghanistan. Together, we build a brighter and equitable future for all. Join Arj
                 Social Organization today and be part of the movement to transform lives, empower
-                communities, and safeguard Afghanistan's future. Together, we make a lasting
+                communities, and safeguard Afghanistan&apos;s future. Together, we make a lasting
                 difference for generations to come.
               </p>
             </div>
