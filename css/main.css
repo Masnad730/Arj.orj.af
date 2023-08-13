@@ -1,0 +1,207 @@
+@tailwind utilities;
+
+@layer utilities {
+  /*React Slick CSS Style Customization*/
+  .slick-carousel__custom-row::before {
+    @apply text-white text-4xl;
+  }
+
+  .slick-carousel__custom-row--gallery::before {
+    @apply text-primary text-4xl;
+  }
+
+  .slick-slider .slick-list {
+    @apply;
+  }
+  .slick-slider .slick-list .slick-track {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .slick-slider .slick-list .slick-track .slick-slide {
+    @apply flex items-center justify-center border border-accents_4 rounded-sm mx-1 px-1;
+  }
+  /*React Slick CSS Style Customization - End*/
+
+  /* Accordion Component Style */
+  .acc_btn::after {
+    display: inline-block;
+    content: '';
+    height: 10px;
+    width: 10px;
+    margin-right: 12px;
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    transform: rotate(-45deg);
+  }
+  .acc_btn[aria-expanded='true']::after,
+  .acc_btn[aria-selected='true']::after {
+    transform: rotate(45deg);
+  }
+  /* Accordion Component for Dari Language*/
+  .acc_btn_right::before {
+    display: inline-block;
+    content: '';
+    height: 10px;
+    width: 10px;
+    margin-right: 12px;
+    border-bottom: 2px solid currentColor;
+    border-right: 2px solid currentColor;
+    transform: rotate(-45deg);
+  }
+  .acc_btn_right[aria-expanded='true']::before,
+  .acc_btn_right[aria-selected='true']::before {
+    transform: rotate(45deg);
+  }
+  /* Accordion Component Style - End */
+
+  .bg-gradient__section-vision {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.63883490896358546) 0%,
+        rgba(0, 0, 0, 0.7816920518207283) 0%
+      ),
+      url('/images/section-vision.jpg');
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+  }
+  .bg-gradient__section-hero-slider {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      169deg,
+      rgba(0, 0, 0, 0.23715423669467783) 0%,
+      rgba(0, 0, 0, 1) 100%
+    );
+  }
+  .bg-gradient__banner {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        169deg,
+        rgba(0, 0, 0, 0.23715423669467783) 0%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url('/images/social.jpeg');
+    background-size: cover;
+    background-position: left 20%;
+    background-repeat: no-repeat;
+  }
+  .bg-gradient__section-our-impact {
+    background: rgb(220, 68, 82);
+    background: linear-gradient(
+        212deg,
+        rgba(220, 68, 82, 0.5844931722689075) 54%,
+        rgba(220, 68, 82, 0.58) 100%
+      ),
+      url('/images/our-impact.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .bg-gradient__section-emergency-donation {
+    background: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.23715423669467783) 0%,
+        rgba(0, 0, 0, 0.5816920518207283) 100%
+      ),
+      url('/images/emergency-response.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+  }
+  .bg-image__section-our-mission {
+    background-image: url('/images/section-mission.jpg');
+    background-position: right center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .bg-gradient__education-page {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        169deg,
+        rgba(0, 0, 0, 0.23715423669467783) 0%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url('/images/page-education.jpg');
+    background-size: cover;
+    background-position: left 20%;
+    background-repeat: no-repeat;
+  }
+  .bg-gradient__emergency-page {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        169deg,
+        rgba(0, 0, 0, 0.23715423669467783) 0%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url('/images/emergency-response-hero.jpg');
+    background-size: cover;
+    background-position: left 25%;
+    background-repeat: no-repeat;
+  }
+  .bg-gradient__health-page {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        169deg,
+        rgba(0, 0, 0, 0.23715423669467783) 0%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url('/images/health.jpg');
+    background-size: cover;
+    background-position: left 20%;
+    background-repeat: no-repeat;
+  }
+  .bg-gradient__water-page {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        169deg,
+        rgba(0, 0, 0, 0.23715423669467783) 0%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url('/images/projects/arj_water_supply/5.jpg');
+    background-size: cover;
+    background-position: left 45%;
+    background-repeat: no-repeat;
+  }
+  .bg-gradient__sport-page {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        169deg,
+        rgba(0, 0, 0, 0.23715423669467783) 0%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url('/images/sport.jpg');
+    background-size: cover;
+    background-position: left 20%;
+    background-repeat: no-repeat;
+  }
+  .bg-gradient__environment-page {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        169deg,
+        rgba(0, 0, 0, 0.23715423669467783) 0%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url('/images/projects/arj_tree_planting/7.jpg');
+    background-size: cover;
+    background-position: left 50%;
+    background-repeat: no-repeat;
+  }
+  .bg-gradient__video-lib-page {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+        169deg,
+        rgba(0, 0, 0, 0.23715423669467783) 0%,
+        rgba(0, 0, 0, 1) 100%
+      ),
+      url('/images/page-video-library.jpg');
+    background-size: cover;
+    background-position: left 20%;
+    background-repeat: no-repeat;
+  }
+}

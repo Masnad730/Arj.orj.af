@@ -1,0 +1,45 @@
+@tailwind base;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+      Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  }
+  body::-webkit-scrollbar {
+    width: 4px;
+  }
+  body::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-sm;
+  }
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    @apply text-sm text-grey-light-2 font-light;
+    opacity: 1; /* Firefox */
+  }
+
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    @apply text-sm text-grey-light-2 font-light;
+  }
+
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    @apply text-sm text-grey-light-2 font-light;
+  }
+  input,
+  select {
+    @apply box-border text-base w-full h-12 bg-grey-light-1 focus:border-primary mb-4 px-4 py-2 outline-none focus:outline-none;
+  }
+  textarea {
+    @apply box-border text-base w-full bg-grey-light-1 focus:border-primary mb-12 px-4 py-2 outline-none focus:outline-none;
+  }
+  button {
+    @apply px-8 py-2 text-base h-12;
+  }
+}
