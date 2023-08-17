@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import Slider from 'react-slick'
 
 import Layout from '../components/layout'
@@ -88,56 +89,68 @@ export default function Gallery() {
             <div className='col-lg-12'>
               <div>
                 <Slider {...settings}>
-                  <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px]'>
-                    <img src='/images/projects/arj_water_supply/6.jpg' alt='' />
-                    <div className='mt-6'>
-                      <h3 className='text-accents_7 font-bold'>
-                        Drilling a water well and building a water reservoir for the Paktika
-                        earthquake-affected people
-                      </h3>
+                  <Link href='./album/drilling-a-water-well-and-building-a-water-reservoir-for-the-paktika-earthquake-affected-people'>
+                    <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px] cursor-pointer'>
+                      <img src='/images/projects/arj_water_supply/6.jpg' alt='' />
+                      <div className='mt-6'>
+                        <h3 className='text-accents_7 font-bold'>
+                          Drilling a water well and building a water reservoir for the Paktika
+                          earthquake-affected people
+                        </h3>
+                      </div>
                     </div>
-                  </div>
-                  <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px]'>
-                    <img src='/images/projects/arj_tree_planting/2.jpg' alt='' />
-                    <div className='mt-6'>
-                      <h3 className='text-accents_7 font-bold'>
-                        Arj Social Organization's initiative for holding tree-planting program in
-                        Kabul City
-                      </h3>
+                  </Link>
+                  <Link href='./album/arj-social-organizations-initiative-for-holding-tree-planting-program-in-kabul-city'>
+                    <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px] cursor-pointer'>
+                      <img src='/images/projects/arj_tree_planting/2.jpg' alt='' />
+                      <div className='mt-6'>
+                        <h3 className='text-accents_7 font-bold'>
+                          Arj Social Organization's initiative for holding tree-planting program in
+                          Kabul City
+                        </h3>
+                      </div>
                     </div>
-                  </div>
-                  <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px]'>
-                    <img src='/images/projects/arj_medicine_donation/8.jpg' alt='' />
-                    <div className='mt-6'>
-                      <h3 className='text-accents_7 font-bold'>
-                        Donating Essential Medicine to the CHC Clinic of Gayan District, Paktika
-                        Province
-                      </h3>
+                  </Link>
+                  <Link href='./album/donating-essential-medicine-to-the-chc-clinic-of-gayan-district-paktika-province'>
+                    <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px] cursor-pointer'>
+                      <img src='/images/projects/arj_medicine_donation/8.jpg' alt='' />
+                      <div className='mt-6'>
+                        <h3 className='text-accents_7 font-bold'>
+                          Donating Essential Medicine to the CHC Clinic of Gayan District, Paktika
+                          Province
+                        </h3>
+                      </div>
                     </div>
-                  </div>
-                  <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px]'>
-                    <img src='/images/projects/arj_paktika_house/7.jpg' alt='' />
-                    <div className='mt-6'>
-                      <h3 className='text-accents_7 font-bold'>
-                        Building House for Paktika Earthquake-Affected People
-                      </h3>
+                  </Link>
+                  <Link href='./album/building-house-for-paktika-earthquake-affected-people'>
+                    <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px] cursor-pointer'>
+                      <img src='/images/projects/arj_paktika_house/7.jpg' alt='' />
+                      <div className='mt-6'>
+                        <h3 className='text-accents_7 font-bold'>
+                          Building House for Paktika Earthquake-Affected People
+                        </h3>
+                      </div>
                     </div>
-                  </div>
-                  <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px]'>
-                    <img src='/images/projects/arj_cricket_club/3.jpg' alt='' />
-                    <div className='mt-6'>
-                      <h3 className='text-accents_7 font-bold'>
-                        Arj Cricket Club qualified to the final in Zarmalwal Tournament and became
-                        Runner-up
-                      </h3>
+                  </Link>
+                  <Link href='./album/arj-cricket-club-qualified-to-the-final-in-zarmalwal-tournament-and-became-runner-up'>
+                    <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px] cursor-pointer'>
+                      <img src='/images/projects/arj_cricket_club/3.jpg' alt='' />
+                      <div className='mt-6'>
+                        <h3 className='text-accents_7 font-bold'>
+                          Arj Cricket Club qualified to the final in Zarmalwal Tournament and became
+                          Runner-up
+                        </h3>
+                      </div>
                     </div>
-                  </div>
-                  <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px]'>
-                    <img src='/images/miscellaneous-photos/1.jpg' alt='' />
-                    <div className='mt-6'>
-                      <h3 className='text-accents_7 font-bold'>Miscellaneous Photos</h3>
+                  </Link>
+                  <Link href='./album/miscellaneous-photos'>
+                    <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px] cursor-pointer'>
+                      <img src='/images/projects/miscellaneous-photos/1.jpg' alt='' />
+                      <div className='mt-6'>
+                        <h3 className='text-accents_7 font-bold'>Miscellaneous Photos</h3>
+                      </div>
                     </div>
-                  </div>
+                  </Link>
                 </Slider>
               </div>
             </div>

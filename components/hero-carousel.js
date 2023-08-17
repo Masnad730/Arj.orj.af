@@ -68,7 +68,11 @@ export default function HeroCarousel() {
   return (
     <Slider {...settings}>
       <div className='relative'>
-        <img src='/images/projects/' alt='' className='h-screen w-full object-cover' />
+        <img
+          src='/images/projects/arj_school_stationary_donation/5.JPG'
+          alt=''
+          className='h-screen w-full object-cover'
+        />
         <div className='absolute top-0 left-0 right-0 bottom-0 z-10 w-full h-full opacity-100 transition-custom bg-gradient__section-hero-slider'>
           <div className='absolute top-1/2 transform -translate-y-1/2 left-52 text-white'>
             <span className='block text-3xl sm:text-5xl lg:text-7xl xl:text-8xl pb-4 font-bold font-lato text-tertiary max-w-6xl'>

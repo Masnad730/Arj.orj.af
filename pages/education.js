@@ -26,7 +26,7 @@ export default function Education() {
             <div className='col-lg-12'>
               <div className='flex flex-wrap pb-14 border-b-2 border-accents_4 last:border-b-0'>
                 <div className='min-h-full w-full flex-1 mr-10 flex items-center'>
-                  <img src='/images/projects/' alt='' />
+                  <img src='/images/projects/arj_school_stationary_donation/2.JPG' alt='' />
                 </div>
                 <div className='pb-2 flex-1 mr-10'>
                   <h2 className='text-2xl font-bold mb-6'>
