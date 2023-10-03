@@ -1,6 +1,6 @@
 export default function GetInvolved() {
   return (
-    <div className='px-10 py-8'>
+    <div className='md:px-10 md:py-8'>
       <div className='container'>
         <div className='row justify-center'>
           <div className='col-lg-9'>

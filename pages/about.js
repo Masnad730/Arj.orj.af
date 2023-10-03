@@ -14,7 +14,9 @@ export default function About() {
                 <span className='inline-block text-xl sm:text-2xl md:text-5xl lg;text-7xl uppercase font-bold font-lato'>
                   about us
                 </span>
-                <div className='text-2xl font-normal mt-2'>Together we can make a difference</div>
+                <div className='text-xl md:text-2xl font-normal mt-2'>
+                  Together we can make a difference
+                </div>
               </div>
             </div>
           </div>
@@ -25,8 +27,10 @@ export default function About() {
           <div className='row'>
             <div className='col-lg-6'>
               <div className='pb-10'>
-                <h1 className='mb-4 text-xl font-bold'>Welcome to Arj Social Organization</h1>
-                <p className='pb-8 text-2xl text-accents_8 font-light'>
+                <h1 className='mb-4 text-lg md:text-xl font-bold'>
+                  Welcome to Arj Social Organization
+                </h1>
+                <p className='pb-8 text-xl md:text-2xl text-accents_8 font-light'>
                   In the heart of Afghanistan's struggle, ASO envisions a world where every
                   individual can thrive, despite challenging circumstances.
                 </p>
@@ -48,12 +52,14 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className='relative bg-[url("/images/handshake.svg")] bg-no-repeat bg-[length:auto_100px] bg-[position:top_center] max-w-[1230px] mt-40 mx-auto mb-12 px-32 py-[5%]'>
+      <section className='relative bg-[url("/images/handshake.svg")] bg-no-repeat bg-[length:auto_50px] md:bg-[length:auto_100px] bg-[position:top_center] max-w-[1230px] mt-40 mx-auto mb-12 px-0 md:px-16 lg:px-32 py-[5%]'>
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12'>
               <div className='text-center'>
-                <h2 className='text-2xl font-bold pt-12 pb-6'>What Sets Us Apart</h2>
+                <h2 className='text-lg md:text-xl lg:text-2xl font-bold pt-16 md:pt-28 lg:pt-12 pb-6'>
+                  What Sets Us Apart
+                </h2>
                 <p className='text-accents_7'>
                   At Arj, our unwavering commitment to empowerment sets us apart. We collaborate
                   with local communities, leveraging expertise to empower individuals as change
@@ -73,8 +79,8 @@ export default function About() {
                 <img src='/images/our-impact.jpg' className='border-8' alt='' />
               </div>
             </div>
-            <div className='col-md-6'>
-              <div className='flex flex-col items-center justify-center h-full text-left ml-16 pt-16 pb-24'>
+            <div className='col-lg-6'>
+              <div className='flex flex-col items-center justify-center h-full text-left ml-0 md:ml-16 pt-16 pb-24'>
                 <div className='block w-full uppercase tracking-widest mb-6'>
                   donate to save lives
                 </div>
@@ -102,7 +108,7 @@ export default function About() {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-6'>
-              <div className='py-28 pr-14'>
+              <div className='py-28 pr-0 md:pr-14'>
                 <h2 className='text-3xl uppercase tracking-wider mb-6'>
                   Our <span className='font-bold'>Mission</span>
                 </h2>

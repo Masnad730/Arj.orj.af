@@ -36,7 +36,9 @@ export default function Contact() {
                 <span className='inline-block text-xl sm:text-2xl md:text-5xl lg;text-7xl uppercase font-bold font-lato'>
                   contact us
                 </span>
-                <div className='text-2xl font-normal mt-2'>Together we can make a difference</div>
+                <div className='text-xl md:text-2xl font-normal mt-2'>
+                  Together we can make a difference
+                </div>
               </div>
             </div>
           </div>
@@ -47,20 +49,22 @@ export default function Contact() {
           <div className='row'>
             <div className='col-lg-8 offset-lg-2'>
               <div className='text-center mb-20'>
-                <h2 className='text-4xl'>Connect with us, and let us know</h2>
+                <h2 className='text-xl md:text-2xl lg:text-4xl'>
+                  Connect with us, and let us know
+                </h2>
               </div>
-              <div className='flex justify-around'>
-                <div className='flex flex-col items-center'>
-                  <div className='mb-8 p-4 bg-accents_4 rounded-[50%]'>
-                    <i className='fa fa-phone text-6xl'></i>
+              <div className='flex flex-col md:flex-row justify-around mx-4 md:mx-0'>
+                <div className='flex md:flex-col items-center mb-4'>
+                  <div className='mb-0 lg:mb-8 mr-8 md:mr-0 px-4 py-3 lg:p-4 bg-accents_4 rounded-[50%]'>
+                    <i className='fa fa-phone text-xl md:text-3xl lg:text-6xl'></i>
                   </div>
                   <h4 className='text-lg'>
                     <a href='tel:+93 786 06 01 01'>+93 786 06 01 01</a>
                   </h4>
                 </div>
-                <div className='flex flex-col items-center'>
-                  <div className='mb-8 p-4 bg-accents_4 rounded-[50%]'>
-                    <i className='fa fa-envelope text-6xl'></i>
+                <div className='flex md:flex-col items-center mb-4'>
+                  <div className='mb-0 lg:mb-8 mr-8 md:mr-0 px-4 py-3 lg:p-4 bg-accents_4 rounded-[50%]'>
+                    <i className='fa fa-envelope text-xl md:text-3xl lg:text-6xl'></i>
                   </div>
                   <h4 className='text-lg'>
                     <a href='mailto:info@arj.org.af' className='text-tertiary'>
@@ -73,10 +77,10 @@ export default function Contact() {
           </div>
           <div className='row'>
             <div className='col-lg-6 offset-lg-3'>
-              <div className='mx-12 mt-12'>
+              <div className='mx-4 md:mx-12 mt-12'>
                 <div className='text-center bg-accents_1 p-6'>
                   <h4 className='mb-2 font-bold text-tertiary'>Head Office</h4>
-                  <div className='text-lg'>Ansori Street, Shahri-Naw, Kabul</div>
+                  <div className='text-base lg:text-lg'>Ansori Street, Shahri-Naw, Kabul</div>
                 </div>
               </div>
             </div>
@@ -88,14 +92,16 @@ export default function Contact() {
           <div className='row justify-center'>
             <div className='col-lg-9'>
               <div className='text-center mb-24'>
-                <h3 className='text-3xl'>Other Inquiries</h3>
+                <h3 className='text-xl md:text-3xl'>Other Inquiries</h3>
               </div>
             </div>
           </div>
           <div className='row'>
             <div className='col-lg-6'>
               <div className='h-full flex justify-center items-center'>
-                <h4 className='text-2xl uppercase font-playfair'>send us a. message</h4>
+                <h4 className='text-2xl uppercase font-playfair mb-12 lg:mb-0'>
+                  send us a. message
+                </h4>
               </div>
             </div>
             <div className='col-lg-6'>
@@ -122,7 +128,7 @@ export default function Contact() {
                         required
                       />
                     </div>
-                    <div className='col-6'>
+                    <div className='col-lg-6'>
                       <input
                         type='text'
                         name='organization'
@@ -131,7 +137,7 @@ export default function Contact() {
                         placeholder='Organization'
                       />
                     </div>
-                    <div className='col-6'>
+                    <div className='col-lg-6'>
                       <input
                         type='text'
                         name='phoneNumber'

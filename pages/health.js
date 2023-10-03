@@ -12,7 +12,9 @@ export default function Health() {
                 <span className='inline-block text-xl sm:text-2xl md:text-5xl lg;text-7xl uppercase font-bold font-lato'>
                   health
                 </span>
-                <div className='text-2xl font-normal mt-2'>Healthy lives, strong communities!</div>
+                <div className='text-xl md:text-2xl font-normal mt-2'>
+                  Healthy lives, strong communities!
+                </div>
               </div>
             </div>
           </div>
@@ -24,13 +26,13 @@ export default function Health() {
             <div className='col-lg-12'>
               <div
                 id='donating-essential-medicine-to-the-chc-clinic-of-gayan-district-paktika-province'
-                className='flex flex-wrap pb-14 border-b-2 border-accents_4 last:border-b-0'
+                className='flex flex-col lg:flex-row flex-wrap pb-14 border-b-2 border-accents_4 last:border-b-0'
               >
                 <div className='min-h-full w-full flex-1 mr-10 flex items-center'>
                   <img src='/images/projects/arj_medicine_donation/8.jpg' alt='' />
                 </div>
-                <div className='pb-2 flex-1 mr-10'>
-                  <h2 className='text-2xl font-bold mb-6'>
+                <div className='pb-2 flex-1 mr-8 lg:mr-10'>
+                  <h2 className='md:text-xl lg:text-2xl font-bold mt-6 lg:mt-0 mb-6'>
                     Donating Essential Medicine to the CHC Clinic of Gayan District, Paktika
                     Province
                   </h2>
@@ -45,7 +47,7 @@ export default function Health() {
                     during cold weather.
                   </p>
                 </div>
-                <div className='mt-6'>
+                <div className='mt-0 lg:mt-6 mr-8 lg:mr-10'>
                   <p className='text-accents_7'>
                     CHC Clinic is the only medical center in Gayan district with little and
                     insufficient facilities. Its connecting routes with the province center and

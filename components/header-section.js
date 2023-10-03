@@ -1,8 +1,14 @@
 import Link from 'next/link'
 
+import ResponsiveHeader from './ResponsiveHeader'
+
 export default function HeaderSection({ activePage }) {
   return (
-    <header className='shadow-navbar'>
+    <>
+    <div className='block lg:hidden'>
+        <ResponsiveHeader activePage={activePage} />
+    </div>
+    <header className='hidden lg:block shadow-navbar'>
       <div className='container'>
         <div className='row'>
           <div className='col-lg-3'>
@@ -215,5 +221,6 @@ export default function HeaderSection({ activePage }) {
         </div>
       </div>
     </header>
+    </>
   )
 }

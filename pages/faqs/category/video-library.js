@@ -34,7 +34,7 @@ export default function VideoLibrary() {
                 <span className='inline-block text-xl sm:text-2xl md:text-5xl lg;text-7xl uppercase font-bold font-lato'>
                   video library
                 </span>
-                <div className='text-2xl font-normal mt-2'>
+                <div className='text-xl md:text-2xl font-normal mt-2'>
                   Have a browse through our video library and check out what we've been up to.
                 </div>
               </div>
@@ -49,17 +49,19 @@ export default function VideoLibrary() {
               <div>
                 <Accordion
                   open={alwaysOpen}
-                  className='mb-8 bg-accents_0 border border-blue-gray-100 px-4 py-3'
+                  className='mb-8 bg-accents_0 border border-blue-gray-100 px-0 md:px-4 py-8 md:py-3'
                   icon={<Icon id={1} open={open} />}
                 >
                   <AccordionHeader
                     onClick={handleAlwaysOpen}
-                    className={`border-b-0 transition-colors ${open === 1 ? 'text-black' : ''}`}
+                    className={`text-base md:text-lg lg:text-xl px-3 md:px-8 border-b-0 transition-colors ${
+                      open === 1 ? 'text-black' : ''
+                    }`}
                   >
                     Drilling a water well and building a water reservoir for the Paktika
                     earthquake-affected people
                   </AccordionHeader>
-                  <AccordionBody className='flex justify-center items-center py-16'>
+                  <AccordionBody className='flex justify-center items-center py-8 md:py-16'>
                     <iframe
                       width='560'
                       height='315'
@@ -73,17 +75,19 @@ export default function VideoLibrary() {
                 </Accordion>
                 <Accordion
                   open={open === 2}
-                  className='mb-8 bg-accents_0 border border-blue-gray-100 px-4 py-3'
+                  className='mb-8 bg-accents_0 border border-blue-gray-100 px-0 md:px-4 py-8 md:py-3'
                   icon={<Icon id={2} open={open} />}
                 >
                   <AccordionHeader
                     onClick={() => handleOpen(2)}
-                    className={`border-b-0 transition-colors ${open === 2 ? 'text-black' : ''}`}
+                    className={`text-base md:text-lg lg:text-xl px-3 md:px-8 border-b-0 transition-colors ${
+                      open === 2 ? 'text-black' : ''
+                    }`}
                   >
                     Arj Social Organization's initiative for holding tree-planting program in Kabul
                     City
                   </AccordionHeader>
-                  <AccordionBody className='flex justify-center items-center py-16'>
+                  <AccordionBody className='flex justify-center items-center py-8 md:py-16'>
                     <iframe
                       width='560'
                       height='315'
@@ -97,17 +101,19 @@ export default function VideoLibrary() {
                 </Accordion>
                 <Accordion
                   open={open === 3}
-                  className='mb-8 bg-accents_0 border border-blue-gray-100 px-4 py-3'
+                  className='mb-8 bg-accents_0 border border-blue-gray-100 px-0 md:px-4 py-8 md:py-3'
                   icon={<Icon id={3} open={open} />}
                 >
                   <AccordionHeader
                     onClick={() => handleOpen(3)}
-                    className={`border-b-0 transition-colors ${open === 3 ? 'text-black' : ''}`}
+                    className={`text-base md:text-lg lg:text-xl px-3 md:px-8 border-b-0 transition-colors ${
+                      open === 3 ? 'text-black' : ''
+                    }`}
                   >
                     Donating Essential Medicine to the CHC Clinic of Gayan District, Paktika
                     Province
                   </AccordionHeader>
-                  <AccordionBody className='flex justify-center items-center py-16'>
+                  <AccordionBody className='flex justify-center items-center py-8 md:py-16'>
                     <iframe
                       width='560'
                       height='315'
@@ -121,16 +127,18 @@ export default function VideoLibrary() {
                 </Accordion>
                 <Accordion
                   open={open === 4}
-                  className='mb-8 bg-accents_0 border border-blue-gray-100 px-4 py-3'
+                  className='mb-8 bg-accents_0 border border-blue-gray-100 px-0 md:px-4 py-8 md:py-3'
                   icon={<Icon id={4} open={open} />}
                 >
                   <AccordionHeader
                     onClick={() => handleOpen(4)}
-                    className={`border-b-0 transition-colors ${open === 4 ? 'text-black' : ''}`}
+                    className={`text-base md:text-lg lg:text-xl px-3 md:px-8 border-b-0 transition-colors ${
+                      open === 4 ? 'text-black' : ''
+                    }`}
                   >
                     Building House for Paktika Earthquake-Affected People
                   </AccordionHeader>
-                  <AccordionBody className='flex justify-center items-center py-16'>
+                  <AccordionBody className='flex justify-center items-center py-8 md:py-16'>
                     <iframe
                       width='560'
                       height='315'

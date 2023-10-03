@@ -50,6 +50,7 @@ export default function Gallery() {
       {
         breakpoint: 600,
         settings: {
+          arrows: true,
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 2,
@@ -61,6 +62,7 @@ export default function Gallery() {
           arrows: false,
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: true,
         },
       },
     ],
@@ -77,7 +79,9 @@ export default function Gallery() {
                 <span className='inline-block text-xl sm:text-2xl md:text-5xl lg;text-7xl uppercase font-bold font-lato'>
                   our gallery
                 </span>
-                <div className='text-2xl font-normal mt-2'>Gallery That Worth a Thousand Word</div>
+                <div className='text-xl md:text-2xl font-normal mt-2'>
+                  Gallery That Worth a Thousand Word
+                </div>
               </div>
             </div>
           </div>
@@ -93,7 +97,7 @@ export default function Gallery() {
                     <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px] cursor-pointer'>
                       <img src='/images/projects/arj_water_supply/6.jpg' alt='' />
                       <div className='mt-6'>
-                        <h3 className='text-accents_7 font-bold'>
+                        <h3 className='text-accents_7 font-bold pb-4 md:pb-0'>
                           Drilling a water well and building a water reservoir for the Paktika
                           earthquake-affected people
                         </h3>
@@ -104,7 +108,7 @@ export default function Gallery() {
                     <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px] cursor-pointer'>
                       <img src='/images/projects/arj_tree_planting/2.jpg' alt='' />
                       <div className='mt-6'>
-                        <h3 className='text-accents_7 font-bold'>
+                        <h3 className='text-accents_7 font-bold pb-4 md:pb-0'>
                           Arj Social Organization's initiative for holding tree-planting program in
                           Kabul City
                         </h3>
@@ -115,7 +119,7 @@ export default function Gallery() {
                     <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px] cursor-pointer'>
                       <img src='/images/projects/arj_medicine_donation/8.jpg' alt='' />
                       <div className='mt-6'>
-                        <h3 className='text-accents_7 font-bold'>
+                        <h3 className='text-accents_7 font-bold pb-4 md:pb-0'>
                           Donating Essential Medicine to the CHC Clinic of Gayan District, Paktika
                           Province
                         </h3>
@@ -126,7 +130,7 @@ export default function Gallery() {
                     <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px] cursor-pointer'>
                       <img src='/images/projects/arj_paktika_house/7.jpg' alt='' />
                       <div className='mt-6'>
-                        <h3 className='text-accents_7 font-bold'>
+                        <h3 className='text-accents_7 font-bold pb-4 md:pb-0'>
                           Building House for Paktika Earthquake-Affected People
                         </h3>
                       </div>
@@ -136,7 +140,7 @@ export default function Gallery() {
                     <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px] cursor-pointer'>
                       <img src='/images/projects/arj_cricket_club/3.jpg' alt='' />
                       <div className='mt-6'>
-                        <h3 className='text-accents_7 font-bold'>
+                        <h3 className='text-accents_7 font-bold pb-4 md:pb-0'>
                           Arj Cricket Club qualified to the final in Zarmalwal Tournament and became
                           Runner-up
                         </h3>
@@ -147,7 +151,9 @@ export default function Gallery() {
                     <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px] cursor-pointer'>
                       <img src='/images/projects/miscellaneous-photos/1.jpg' alt='' />
                       <div className='mt-6'>
-                        <h3 className='text-accents_7 font-bold'>Miscellaneous Photos</h3>
+                        <h3 className='text-accents_7 font-bold pb-4 md:pb-0'>
+                          Miscellaneous Photos
+                        </h3>
                       </div>
                     </div>
                   </Link>
@@ -162,7 +168,9 @@ export default function Gallery() {
           <div className='row'>
             <div className='col-lg-12'>
               <div className='text-center text-white pt-32 pb-12'>
-                <h2 className='text-5xl font-bold mb-8'>Donate to save Tajala's Life</h2>
+                <h2 className='text-2xl md:text-3xl lg:text-5xl font-bold mb-8'>
+                  Donate to save Tajala's Life
+                </h2>
                 <p className='text-accents_3'>
                   Tajala, a 13-year-old child diagnosed with cancer (Bone Marrow). The absence of
                   bone marrow is fatal since it makes all the components of blood that one needs to

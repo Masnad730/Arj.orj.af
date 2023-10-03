@@ -13,7 +13,9 @@ export default function LatestNews() {
                 <span className='inline-block text-xl sm:text-2xl md:text-5xl lg;text-7xl uppercase font-bold font-lato'>
                   latest news
                 </span>
-                <div className='text-2xl font-normal mt-2'>Discover all of our latest news,</div>
+                <div className='text-xl md:text-2xl font-normal mt-2'>
+                  Discover all of our latest news,
+                </div>
               </div>
             </div>
           </div>
@@ -32,8 +34,8 @@ export default function LatestNews() {
                   />
                   <div className='group-hover:absolute group-hover:top-0 group-hover:left-0 group-hover:w-full group-hover:h-full group-hover:opacity-100 group-hover:bg-tertiary-overlay-color'></div>
                 </div>
-                <div className='p-4'>
-                  <h2 className='text-2xl font-bold mb-4'>
+                <div className='flex flex-col p-4'>
+                  <h2 className='text-lg md:text-xl lg:text-2xl font-bold mb-4'>
                     <Link
                       href='/water#drilling-a-water-well-and-building-a-water-reservoir-for-the-paktika-earthquake-affected-people'
                       className='group-hover:underline decoration-tertiary'
@@ -42,12 +44,12 @@ export default function LatestNews() {
                       earthquake-affected people
                     </Link>
                   </h2>
-                  <p className='text-accents_7 font-playfair'>
+                  <p className='order-3 order-lg-2 text-accents_7 font-playfair'>
                     Continuing our social and humanitarian activities, Arj Social Organization
                     completed a water project and put it into use for the Paktika
                     earthquake-affected people.
                   </p>
-                  <div className='flex items-center pt-10 text-sm font-bold text-accents_7'>
+                  <div className='order-2 order-lg-3 flex items-center pb-9 lg:pb-0 pt-1 lg:pt-10 text-sm font-bold text-accents_7'>
                     <i className='fa fa-calendar text-tertiary'></i>
                     <span className='inline-block ml-2'>
                       4<sup>th</sup> May, 2023
@@ -66,8 +68,8 @@ export default function LatestNews() {
                   />
                   <div className='group-hover:absolute group-hover:top-0 group-hover:left-0 group-hover:w-full group-hover:h-full group-hover:opacity-100 group-hover:bg-tertiary-overlay-color'></div>
                 </div>
-                <div className='p-4'>
-                  <h2 className='text-2xl font-bold mb-4'>
+                <div className='flex flex-col p-4'>
+                  <h2 className='text-lg md:text-xl lg:text-2xl font-bold mb-4'>
                     <Link
                       href='/environment#arj-social-organizations-initiative-for-holding-tree-planting-program-in-kabul-city'
                       className='group-hover:underline decoration-tertiary'
@@ -76,12 +78,12 @@ export default function LatestNews() {
                       Kabul City
                     </Link>
                   </h2>
-                  <p className='text-accents_7 font-playfair'>
+                  <p className='order-3 order-lg-2 text-accents_7 font-playfair'>
                     Continuing its cultural, social, and humanitarian activities, Arj Social
                     Organization donated 300 trees to Kabul Municipality on Mar 15, 2023 for
                     promoting the green environment in Kabul City.
                   </p>
-                  <div className='flex items-center pt-10 text-sm font-bold text-accents_7'>
+                  <div className='order-2 order-lg-3 flex items-center pb-9 lg:pb-0 pt-1 lg:pt-10 text-sm font-bold text-accents_7'>
                     <i className='fa fa-calendar text-tertiary'></i>
                     <span className='inline-block ml-2'>
                       15<sup>th</sup> March, 2023
@@ -100,8 +102,8 @@ export default function LatestNews() {
                   />
                   <div className='group-hover:absolute group-hover:top-0 group-hover:left-0 group-hover:w-full group-hover:h-full group-hover:opacity-100 group-hover:bg-tertiary-overlay-color'></div>
                 </div>
-                <div className='p-4'>
-                  <h2 className='text-2xl font-bold mb-4'>
+                <div className='flex flex-col p-4'>
+                  <h2 className='text-lg md:text-xl lg:text-2xl font-bold mb-4'>
                     <Link
                       href='/health#donating-essential-medicine-to-the-chc-clinic-of-gayan-district-paktika-province'
                       className='group-hover:underline decoration-tertiary'
@@ -110,11 +112,11 @@ export default function LatestNews() {
                       Province
                     </Link>
                   </h2>
-                  <p className='text-accents_7 font-playfair'>
+                  <p className='order-3 order-lg-2 text-accents_7 font-playfair'>
                     Gayan district of Paktika province is the district whose residents suffered the
                     most from Paktika earthquake.
                   </p>
-                  <div className='flex items-center pt-10 text-sm font-bold text-accents_7'>
+                  <div className='order-2 order-lg-3 flex items-center pb-9 lg:pb-0 pt-1 lg:pt-10 text-sm font-bold text-accents_7'>
                     <i className='fa fa-calendar text-tertiary'></i>
                     <span className='inline-block ml-2'>
                       23<sup>th</sup> Jan, 2023
@@ -133,8 +135,8 @@ export default function LatestNews() {
                   />
                   <div className='group-hover:absolute group-hover:top-0 group-hover:left-0 group-hover:w-full group-hover:h-full group-hover:opacity-100 group-hover:bg-tertiary-overlay-color'></div>
                 </div>
-                <div className='p-4'>
-                  <h2 className='text-2xl font-bold mb-4'>
+                <div className='flex flex-col p-4'>
+                  <h2 className='text-lg md:text-xl lg:text-2xl font-bold mb-4'>
                     <Link
                       href='/emergency-response#building-house-for-paktika-earthquake-affected-people'
                       className='group-hover:underline decoration-tertiary'
@@ -142,11 +144,11 @@ export default function LatestNews() {
                       Building House for Paktika Earthquake-Affected People
                     </Link>
                   </h2>
-                  <p className='text-accents_7 font-playfair'>
+                  <p className='order-3 order-lg-2 text-accents_7 font-playfair'>
                     The little Najia and her family had their house ruined due to heavy earthquake
                     in Paktika.
                   </p>
-                  <div className='flex items-center pt-10 text-sm font-bold text-accents_7'>
+                  <div className='order-2 order-lg-3 flex items-center pb-9 lg:pb-0 pt-1 lg:pt-10 text-sm font-bold text-accents_7'>
                     <i className='fa fa-calendar text-tertiary'></i>
                     <span className='inline-block ml-2'>
                       22<sup>th</sup> November, 2022
@@ -165,8 +167,8 @@ export default function LatestNews() {
                   />
                   <div className='group-hover:absolute group-hover:top-0 group-hover:left-0 group-hover:w-full group-hover:h-full group-hover:opacity-100 group-hover:bg-tertiary-overlay-color'></div>
                 </div>
-                <div className='p-4'>
-                  <h2 className='text-2xl font-bold mb-4'>
+                <div className='flex flex-col p-4'>
+                  <h2 className='text-lg md:text-xl lg:text-2xl font-bold mb-4'>
                     <Link
                       href='/sport#arj-cricket-club-qualified-to-the-final-in-zarmalwal-tournament-and-became-runner-up'
                       className='group-hover:underline decoration-tertiary'
@@ -175,11 +177,11 @@ export default function LatestNews() {
                       Runner-up
                     </Link>
                   </h2>
-                  <p className='text-accents_7 font-playfair'>
+                  <p className='order-3 order-lg-2 text-accents_7 font-playfair'>
                     Upon foundation, Arj Cricket Club participated in Zarmalwal Tournament as the
                     first official cricket tournament for the team.
                   </p>
-                  <div className='flex items-center pt-10 text-sm font-bold text-accents_7'>
+                  <div className='order-2 order-lg-3 flex items-center pb-9 lg:pb-0 pt-1 lg:pt-10 text-sm font-bold text-accents_7'>
                     <i className='fa fa-calendar text-tertiary'></i>
                     <span className='inline-block ml-2'>
                       18<sup>th</sup> August, 2022

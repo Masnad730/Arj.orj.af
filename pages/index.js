@@ -18,9 +18,9 @@ export default function Home() {
               </div>
             </div>
             <div className='col-lg-6'>
-              <div className='pt-10 px-12'>
+              <div className='pt-4 md:pt-10 px-2 sm:px-4 md:px-12'>
                 <h2 className='text-sm font-bold pb-3'>Arj Social Organization</h2>
-                <span className='inline-block text-3xl font-playfair pb-7'>
+                <span className='inline-block text-xl md:text-2xl lg:text-3xl font-playfair pb-7'>
                   Act Now, Save Lives
                 </span>
                 <div>
@@ -44,7 +44,9 @@ export default function Home() {
           <div className='row'>
             <div className='col-lg-12'>
               <div className='text-center text-white pt-32 pb-12'>
-                <h2 className='text-5xl font-bold mb-8'>Donate to save Tajala's Life</h2>
+                <h2 className='text-2xl md:text-3xl lg:text-5xl font-bold mb-8'>
+                  Donate to save Tajala's Life
+                </h2>
                 <p className='text-accents_3'>
                   Tajala, a 13-year-old child diagnosed with cancer (Bone Marrow). The absence of
                   bone marrow is fatal since it makes all the components of blood that one needs to
@@ -69,10 +71,12 @@ export default function Home() {
           <div className='row justify-center'>
             <div className='col-lg-9'>
               <div className='text-center mb-14'>
-                <span className='block text-2xl text-accents_6 mb-3'>
+                <span className='block text-lg md:text-2xl text-accents_6 mb-3'>
                   THANK YOU FOR YOUR CONTINUED SUPPORT
                 </span>
-                <div className='block text-xl'>Arj Social Organization's Fund Updates</div>
+                <div className='block text-base md:text-xl'>
+                  Arj Social Organization's Fund Updates
+                </div>
               </div>
             </div>
           </div>

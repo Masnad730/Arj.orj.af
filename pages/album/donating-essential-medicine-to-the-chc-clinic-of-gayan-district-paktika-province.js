@@ -12,7 +12,7 @@ export default function ArjMedicineDonationProject() {
           <div className='row justify-center'>
             <div className='col-lg-9'>
               <div className='mb-12 text-center'>
-                <h2 className='text-3xl text-accents_6'>
+                <h2 className='text-xl md:text-2xl lg:text-3xl text-accents_6'>
                   Donating Essential Medicine to the CHC Clinic of Gayan District, Paktika Province
                 </h2>
                 <div className='pt-2 text-lg'>Project Photos</div>

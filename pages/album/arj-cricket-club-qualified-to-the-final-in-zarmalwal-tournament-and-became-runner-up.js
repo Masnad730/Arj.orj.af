@@ -12,7 +12,7 @@ export default function ArjCricketClubTournment() {
           <div className='row justify-center'>
             <div className='col-lg-9'>
               <div className='mb-12 text-center'>
-                <h2 className='text-3xl text-accents_6'>
+                <h2 className='text-xl md:text-2xl lg:text-3xl text-accents_6'>
                   Arj Cricket Club qualified to the final in Zarmalwal Tournament and became
                   Runner-up
                 </h2>

@@ -12,7 +12,7 @@ export default function Environment() {
                 <span className='inline-block text-xl sm:text-2xl md:text-5xl lg;text-7xl uppercase font-bold font-lato'>
                   environment
                 </span>
-                <div className='text-2xl font-normal mt-2'>
+                <div className='md:text-xl lg:text-2xl font-normal mt-2'>
                   Protect our planet, donate for the environment
                 </div>
               </div>
@@ -26,13 +26,13 @@ export default function Environment() {
             <div className='col-lg-12'>
               <div
                 id='arj-social-organizations-initiative-for-holding-tree-planting-program-in-kabul-city'
-                className='flex flex-wrap pb-14 border-b-2 border-accents_4 last:border-b-0'
+                className='flex flex-wrap flex-col lg:flex-row pb-14 border-b-2 border-accents_4 last:border-b-0'
               >
                 <div className='min-h-full w-full flex-1 mr-10 flex items-center'>
                   <img src='/images/projects/arj_tree_planting/2.jpg' alt='' />
                 </div>
-                <div className='pb-2 flex-1 mr-10'>
-                  <h2 className='text-2xl font-bold mb-6'>
+                <div className='pb-2 flex-1 mr-8 lg:mr-10'>
+                  <h2 className='md:text-xl lg:text-2xl font-bold mb-6 mt-6 lg:mt-0'>
                     Arj Social Organization's initiative for holding tree-planting program in Kabul
                     City
                   </h2>
@@ -45,7 +45,7 @@ export default function Environment() {
                     Kabul citizens.
                   </p>
                 </div>
-                <div className='mt-6'>
+                <div className='mt-6 mr-8 lg:mr-10'>
                   <p className='text-accents_7'>
                     The program was held in coordination with Kabul Municipality officials who
                     ensured the protection and regular irrigation of the trees.

@@ -12,7 +12,7 @@ export default function ArjTreePlantingProject() {
           <div className='row justify-center'>
             <div className='col-lg-9'>
               <div className='mb-12 text-center'>
-                <h2 className='text-3xl text-accents_6'>
+                <h2 className='text-xl md:text-2xl lg:text-3xl text-accents_6'>
                   Arj Social Organization's initiative for holding tree-planting program in Kabul
                   City
                 </h2>

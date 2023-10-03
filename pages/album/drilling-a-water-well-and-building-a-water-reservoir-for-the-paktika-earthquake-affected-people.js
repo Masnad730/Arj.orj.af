@@ -12,7 +12,7 @@ export default function ArjWaterProject() {
           <div className='row justify-center'>
             <div className='col-lg-9'>
               <div className='mb-12 text-center'>
-                <h2 className='text-3xl text-accents_6'>
+                <h2 className='text-xl md:text-2xl lg:text-3xl text-accents_6'>
                   Drilling a water well and building a water reservoir for the Paktika
                   earthquake-affected people
                 </h2>
