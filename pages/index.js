@@ -83,6 +83,39 @@ export default function Home() {
           <div className='row border-t-2 border-accents_4'>
             <div className='col-lg-4'>
               <div className='mt-3'>
+                <img
+                  src='/images/projects/arj_school_stationary_donation/2.JPG'
+                  alt=''
+                  className='w-[350px] h-[198px] object-cover'
+                />
+                <div className='relative'>
+                  <div className='before:content-[" "], before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-accents_2'>
+                    <div className='bg-white -translate-y-4 p-8 mx-4'>
+                      <h2 className='tracking-wider font-bold mb-2'>
+                        Distribution of Stationary Packages to the School Students in Gayan District
+                        of Paktika Province
+                      </h2>
+                      <span className='inline-block pb-4 text-sm'>May 2023</span>
+                      <p className='text-accents_6 mb-6'>
+                        In order to value and prioritize education for the younger generation and to
+                        continue supporting the residents of Gayan district of Paktika province, Arj
+                        Social Organization distributed...
+                      </p>
+                      <div className='bg-tertiary max-w-max px-4 py-2'>
+                        <Link
+                          href='/education#distribution-of-stationary-packages-to-the-school-students-in-gayan-district-of-paktika-province'
+                          className='font-playfair'
+                        >
+                          Read More →
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='col-lg-4'>
+              <div className='mt-3'>
                 <img src='./images/projects/arj_water_supply/6.jpg' alt='' />
                 <div className='relative'>
                   <div className='before:content-[" "], before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-accents_2'>
@@ -129,35 +162,6 @@ export default function Home() {
                       <div className='bg-tertiary max-w-max px-4 py-2'>
                         <Link
                           href='/environment#arj-social-organizations-initiative-for-holding-tree-planting-program-in-kabul-city'
-                          className='font-playfair'
-                        >
-                          Read More →
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-4'>
-              <div className='mt-3'>
-                <img src='./images/projects/arj_medicine_donation/8.jpg' alt='' />
-                <div className='relative'>
-                  <div className='before:content-[" "], before:absolute before:top-0 before:left-0 before:h-full before:w-full before:bg-accents_2'>
-                    <div className='bg-white -translate-y-4 p-8 mx-4'>
-                      <h2 className='tracking-wider font-bold mb-2'>
-                        Donating Essential Medicine to the CHC Clinic of Gayan District, Paktika
-                        Province
-                      </h2>
-                      <span className='inline-block pb-4 text-sm'>Feb 2023</span>
-                      <p className='text-accents_6 mb-6'>
-                        Gayan district of Paktika province is the district whose residents suffered
-                        the most from Paktika earthquake. With the Winter coming, Arj Social
-                        Organization and Afghan Relief donated more than 19 quality medicine
-                      </p>
-                      <div className='bg-tertiary max-w-max px-4 py-2'>
-                        <Link
-                          href='/health#donating-essential-medicine-to-the-chc-clinic-of-gayan-district-paktika-province'
                           className='font-playfair'
                         >
                           Read More →

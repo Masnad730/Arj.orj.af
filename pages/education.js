@@ -24,7 +24,10 @@ export default function Education() {
         <div className='container'>
           <div className='row'>
             <div className='col-lg-12'>
-              <div className='flex flex-col lg:flex-row flex-wrap items-start pb-14 border-b-2 border-accents_4 last:border-b-0'>
+              <div
+                id='distribution-of-stationary-packages-to-the-school-students-in-gayan-district-of-paktika-province'
+                className='flex flex-col lg:flex-row flex-wrap items-start pb-14 border-b-2 border-accents_4 last:border-b-0'
+              >
                 <div className='min-h-full w-full flex-1 mr-10 flex items-center'>
                   <img src='/images/projects/arj_school_stationary_donation/2.JPG' alt='' />
                 </div>

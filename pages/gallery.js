@@ -93,6 +93,21 @@ export default function Gallery() {
             <div className='col-lg-12'>
               <div>
                 <Slider {...settings}>
+                  <Link href='./album/distribution-of-stationary-packages-to-the-school-students-in-gayan-district-of-paktika-province'>
+                    <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px] cursor-pointer'>
+                      <img
+                        src='/images/projects/arj_school_stationary_donation/2.JPG'
+                        className='w-[318px] h-[179px] object-cover'
+                        alt=''
+                      />
+                      <div className='mt-6'>
+                        <h3 className='text-accents_7 font-bold pb-4 md:pb-0'>
+                          Distribution of Stationary Packages to the School Students in Gayan
+                          District of Paktika Province
+                        </h3>
+                      </div>
+                    </div>
+                  </Link>
                   <Link href='./album/drilling-a-water-well-and-building-a-water-reservoir-for-the-paktika-earthquake-affected-people'>
                     <div className='px-[18px] !flex flex-col items-center justify-center lg:px-[26px] cursor-pointer'>
                       <img src='/images/projects/arj_water_supply/6.jpg' alt='' />
